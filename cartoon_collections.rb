@@ -10,6 +10,10 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
+  count = 1 
+  
+  array.each_with_index
+  
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
